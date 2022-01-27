@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "arm-example"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15tem8itif6dv"
+s3_prefix = "arm-example"
+region = "ap-southeast-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
